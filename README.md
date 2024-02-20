@@ -28,7 +28,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/roundfly/DockNet
+   git clone https://github.com/nikolapd89/DockNet.git
    ```
 
 2. Navigate to the project directory:
