@@ -33,7 +33,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 2. Navigate to the project directory:
    ```
-   cd DockNet
+   cd DockNet/DockNet
    ```
 
 3. Compile the server:
