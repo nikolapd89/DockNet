@@ -13,38 +13,54 @@ DockNet is a lightweight, easy-to-use TCP server, designed to provide a robust f
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will guide you through setting up the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What you need to install the software:
+Before you begin, ensure you have the following installed:
 
-- A C compiler (like gcc)
+- A compatible C compiler, such as `clang` or `gcc`
+- `make` utility for automating the build process
 - Basic understanding of network programming in C
 
-### Installing
+### Installation
 
-A step-by-step series of examples that tell you how to get a development environment running:
+Follow these steps to get your development environment running:
 
 1. Clone the repository to your local machine:
-   ```
+   ```sh
    git clone https://github.com/nikolapd89/DockNet.git
    ```
 
 2. Navigate to the project directory:
-   ```
+   ```sh
    cd DockNet/DockNet
    ```
 
-3. Compile the server:
+3. Compile the server using `make`:
+   ```sh
+   make
    ```
-   gcc -o docknet src/main.c src/server.c src/client_info.c -Iinclude
-   ```
+This command invokes the Makefile, which automatically compiles the source files and generates the executable in the `bin` directory.
 
-4. Run the server:
-   ```
-   ./docknet
-   ```
+### Running the Server
+
+After compiling the server, you can start it with the following command:
+
+```sh
+./bin/docknet
+```
+
+This will launch the server executable.
+
+### Cleaning Up
+
+To clean up the build artifacts and start fresh, you can use the `clean` target in the Makefile:
+
+```sh
+make clean
+```
+This command removes the `bin` and `build` directories, ensuring that the next build starts from scratch.
 
 ## Usage
 
@@ -52,7 +68,7 @@ After starting the server, it will listen for incoming TCP connections. Clients 
 
 Example using `nc`:
 
-```
+```sh
 nc localhost 9090
 ```
 
