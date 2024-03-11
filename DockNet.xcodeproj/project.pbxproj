@@ -31,6 +31,7 @@
 		B00C41412B20ED480059C580 /* client_info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client_info.c; sourceTree = "<group>"; };
 		B0F13A782B151C1A00FC937C /* DockNet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DockNet; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F13A7B2B151C1A00FC937C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FEFD18DE2B9D2C82007FFB0A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		B0F13A7A2B151C1A00FC937C /* DockNet */ = {
 			isa = PBXGroup;
 			children = (
+				FEFD18DE2B9D2C82007FFB0A /* Makefile */,
 				B00C413F2B20C42F0059C580 /* include */,
 				B00C413E2B20C4280059C580 /* src */,
 			);
